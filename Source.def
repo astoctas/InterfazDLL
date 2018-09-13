@@ -1,0 +1,23 @@
+LIBRARY FirmataDll
+
+EXPORTS
+	enumeratePorts
+	open
+	reportAnalog
+	reportDigital
+	pinMode
+	digitalWrite
+	analogWrite
+	setSamplingInterval
+	talkTo
+	configI2C
+	readI2COnce
+	readI2C
+	reportI2C
+	writeI2C
+	digitalRead
+	analogRead
+	servo
+	I2CLoad
+	I2CCommand
+	I2CwriteStr
