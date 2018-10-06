@@ -21,3 +21,17 @@ EXPORTS
 	I2CLoad
 	I2CCommand
 	I2CwriteStr
+	close
+	outputs
+	outputsOn
+	outputsOff
+	outputsReverse
+	outputsBrake
+	outputsDir
+	outputsSpeed
+	steppers
+	steppersSteps
+	steppersStop
+	steppersDir
+	servos
+	servosPosition
