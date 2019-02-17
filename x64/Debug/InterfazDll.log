@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+c:\users\user\dropbox\interfaz2.0\software\visualstudio\interfazdll\dllmain.cpp(252): warning C4267: 'return': conversión de 'size_t' a 'DWORD'; posible pérdida de datos
+c:\users\user\dropbox\interfaz2.0\software\visualstudio\interfazdll\dllmain.cpp(258): warning C4267: 'return': conversión de 'size_t' a 'DWORD'; posible pérdida de datos
+c:\users\user\dropbox\interfaz2.0\software\visualstudio\interfazdll\dllmain.cpp(353): warning C4267: 'return': conversión de 'size_t' a 'uint16_t'; posible pérdida de datos
+c:\users\user\dropbox\interfaz2.0\software\visualstudio\interfazdll\dllmain.cpp(359): warning C4267: 'return': conversión de 'size_t' a 'uint16_t'; posible pérdida de datos
+firmatacpp.lib(firmserial.obj) : fatal error LNK1112: tipo de equipo del módulo 'x86' en conflicto con tipo de equipo de destino 'x64'
