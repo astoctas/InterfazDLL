@@ -74,6 +74,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>..\Interfaz\include;..\firmatacpp\vendor\serial\include\serial\impl;..\firmatacpp\vendor\serial\include;..\firmatacpp;..\firmatacpp\include;$(IncludePath)</IncludePath>
     <LibraryPath>..\firmatacpp\Debug;..\firmatacpp\vendor\serial\Debug;$(LibraryPath)</LibraryPath>
+    <OutDir>$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -83,6 +84,7 @@
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>..\Interfaz\include;..\firmatacpp\vendor\serial\include\serial\impl;..\firmatacpp\vendor\serial\include;..\firmatacpp;..\firmatacpp\include;$(IncludePath)</IncludePath>
     <LibraryPath>..\firmatacpp\vendor\serial\Debug;$(LibraryPath);$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+    <OutDir>$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -93,7 +95,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_ITERATOR_DEBUG_LEVEL=2;WIN32;_DEBUG;InterfazDll_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;InterfazDll_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\firmatacpp\vendor\serial\include;..\firmatacpp;..\firmatacpp\include;..\Interfaz\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -178,21 +180,21 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\firmatacpp\firmatacpp.vcxproj">
-      <Project>{fe0f7016-321e-3c07-b1f7-e6e6d9b01808}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\firmatacpp\vendor\serial\serial.vcxproj">
-      <Project>{ee2c7e68-5904-3e0b-8469-4410a19eb6ca}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Interfaz\Interfaz.vcxproj">
-      <Project>{c4a7ca02-1883-4fce-9402-bd109e7eaa4f}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="InterfazDll.rc" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Source.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\firmatacpp\firmatacpp.vcxproj">
+      <Project>{fe0f7016-321e-3c07-b1f7-e6e6d9b01808}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\firmatacpp\vendor\serial\serial.vcxproj">
+      <Project>{fed7f9c2-88e3-3b33-845f-3355538c4672}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Interfaz\Interfaz.vcxproj">
+      <Project>{c4a7ca02-1883-4fce-9402-bd109e7eaa4f}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
