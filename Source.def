@@ -1,4 +1,4 @@
-LIBRARY FirmataDll
+LIBRARY InterfazDll
 
 EXPORTS
 	enumeratePorts
@@ -46,3 +46,5 @@ EXPORTS
 	i2cWrite
 	lcdWrite
 	lcdClear
+	lcdSilence
+	lcdVerbose

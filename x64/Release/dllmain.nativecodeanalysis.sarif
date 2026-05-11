@@ -1,0 +1,195 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.40.33811.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/interfazdll/dllmain.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "debe66533da1d16082a8451f0af38cbce2f34d139735e1121b26a1058ee8a507"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/interfazdll/stdafx.h"
+          },
+          "hashes": {
+            "sha-256": "963f2f918db38958f9e110267d4f630487e260221fcc32519915013ee1893489"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/interfazdll/targetver.h"
+          },
+          "hashes": {
+            "sha-256": "289444412dddbc4c0d21169cb44a31563ed3220b3269f2efeb8f6b3b360c7243"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/firmatacpp/include/firmata.h"
+          },
+          "hashes": {
+            "sha-256": "f95f6e2136de15f7869b7b675dcc7457ad1876e186fae602cbb32e14c8007e9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/firmatacpp/firmatacpp_export.h"
+          },
+          "hashes": {
+            "sha-256": "26bf322c156ff5d7e3b7a3319b904b09cd5536d98665b9d4d06962d24e4fc232"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/firmatacpp/include/firmio.h"
+          },
+          "hashes": {
+            "sha-256": "f3d1a04a2d746d283e7c628d83b06dda73d1c51ee4d8c212a54fb657608f3050"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/firmatacpp/include/firmata_constants.h"
+          },
+          "hashes": {
+            "sha-256": "af798cf4402f9707bd1879d032850e5731584f35d7ff83e1a00fe79bc7394ebc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/firmatacpp/include/firmbase.h"
+          },
+          "hashes": {
+            "sha-256": "d709ea44c3f48ed31c6e9a0b47374fc2dfd2526ab194da4071eb1936489cf8fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/firmatacpp/include/firmi2c.h"
+          },
+          "hashes": {
+            "sha-256": "43d5792f5af9bad30d7180cb21ea3865c60330194bb624c38bfbfcc725514307"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/interfaz/include/interfaz.h"
+          },
+          "hashes": {
+            "sha-256": "132af4fc53133acb69af505830f68fdabcbe84ee5bbe447f69e2626d6926e7c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/interfaz/include/arduino.h"
+          },
+          "hashes": {
+            "sha-256": "a7404035d3562b7d36991922d7c903f6f90cdde51918b2a6d235d46def3fbca4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/firmatacpp/include/firmaccelstepper.h"
+          },
+          "hashes": {
+            "sha-256": "c4bd001ce82b12d3895bb442a966600f8a26da9741fb87cf6cb8d3be56fa0128"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/firmatacpp/include/firmdc.h"
+          },
+          "hashes": {
+            "sha-256": "f134c7b37656a3ab64b3b65cf3cfa0e3ab6cd9d5de2a22c5b9776436680c3e9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/firmatacpp/include/firmlcd.h"
+          },
+          "hashes": {
+            "sha-256": "92472ae1471c849eee88fc597b16f9b85a725a02f0aecb8a45d5cbd317352776"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/firmatacpp/include/firmserial.h"
+          },
+          "hashes": {
+            "sha-256": "2a980f3902f7610caaf6517d79996148662a9ed8284281786d0ba6ca7b736ed4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/firmatacpp/vendor/serial/include/serial/serial.h"
+          },
+          "hashes": {
+            "sha-256": "cf04abb6f85b42291bf8513d0858878e7fa0f58f35000ece92d4bb764bfc4c51"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/firmatacpp/vendor/serial/include/serial/v8stdint.h"
+          },
+          "hashes": {
+            "sha-256": "e5bc2447f3f9d2a93ec0308e9b63ffc8f4ed011d67982a10596b95cf47fdc40b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/interfaz/include/i2cplugin.h"
+          },
+          "hashes": {
+            "sha-256": "e73e8d58d07a291cd1264c9b8e87000916119513084135851fdd7048860660aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/interfaz/include/dc.h"
+          },
+          "hashes": {
+            "sha-256": "7e186ef2d94fa4617732611e581da1e9e9ee3f71cea5e56bc7d0ab1387e72aa7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/interfaz/include/stepper.h"
+          },
+          "hashes": {
+            "sha-256": "8e722da5c5823c0bf4788dacc965c61688d325b93c9449f4f5d67f485767cbdd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alejandro/documents/interfaz2.0/software/visualstudio/interfaz/include/servo.h"
+          },
+          "hashes": {
+            "sha-256": "6873c182cd27d6fd25d50bcdbd2e8df131696ba7f4cb2843b4ab6cf5fdace448"
+          }
+        }
+      ]
+    }
+  ]
+}

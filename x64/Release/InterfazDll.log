@@ -1,0 +1,57 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+C:\Users\Alejandro\Documents\Interfaz2.0\Software\VisualStudio\InterfazDll\dllmain.cpp(253,18): warning C4267: 'return': conversión de 'size_t' a 'DWORD'; posible pérdida de datos
+C:\Users\Alejandro\Documents\Interfaz2.0\Software\VisualStudio\InterfazDll\dllmain.cpp(259,18): warning C4267: 'return': conversión de 'size_t' a 'DWORD'; posible pérdida de datos
+C:\Users\Alejandro\Documents\Interfaz2.0\Software\VisualStudio\InterfazDll\dllmain.cpp(324,18): warning C4267: 'return': conversión de 'size_t' a 'WORD'; posible pérdida de datos
+C:\Users\Alejandro\Documents\Interfaz2.0\Software\VisualStudio\InterfazDll\dllmain.cpp(360,18): warning C4267: 'return': conversión de 'size_t' a 'uint16_t'; posible pérdida de datos
+C:\Users\Alejandro\Documents\Interfaz2.0\Software\VisualStudio\InterfazDll\dllmain.cpp(366,18): warning C4267: 'return': conversión de 'size_t' a 'uint16_t'; posible pérdida de datos
+     Creando biblioteca C:\Users\Alejandro\Documents\Interfaz2.0\Software\VisualStudio\Interfaz\x64\Release\InterfazDll.lib y objeto C:\Users\Alejandro\Documents\Interfaz2.0\Software\VisualStudio\Interfaz\x64\Release\InterfazDll.exp
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::LCD::clearLCD(void)" (?clearLCD@LCD@firmata@@QEAAXXZ) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::LCD::printLCD(unsigned char,char const *)" (?printLCD@LCD@firmata@@QEAAXEPEBD@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: static class std::vector<struct firmata::PortInfo,class std::allocator<struct firmata::PortInfo> > __cdecl firmata::FirmSerial::listPorts(void)" (?listPorts@FirmSerial@firmata@@SA?AV?$vector@UPortInfo@firmata@@V?$allocator@UPortInfo@firmata@@@std@@@std@@XZ) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::Base::reportAnalog(unsigned char,unsigned char)" (?reportAnalog@Base@firmata@@QEAAXEE@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::Base::reportDigital(unsigned char,unsigned char)" (?reportDigital@Base@firmata@@QEAAXEE@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::Base::setSamplingInterval(unsigned int)" (?setSamplingInterval@Base@firmata@@QEAAXI@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::Base::pinMode(unsigned char,unsigned char)" (?pinMode@Base@firmata@@QEAAXEE@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::Base::digitalWrite(unsigned char,unsigned char)" (?digitalWrite@Base@firmata@@QEAAXEE@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::Base::analogWrite(unsigned char,unsigned int)" (?analogWrite@Base@firmata@@QEAAXEI@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: unsigned char __cdecl firmata::Base::digitalRead(unsigned char)" (?digitalRead@Base@firmata@@QEAAEE@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: unsigned int __cdecl firmata::Base::analogRead(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?analogRead@Base@firmata@@QEAAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::I2C::configI2C(unsigned int)" (?configI2C@I2C@firmata@@QEAAXI@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::I2C::reportI2C(unsigned short,unsigned short,unsigned int)" (?reportI2C@I2C@firmata@@QEAAXGGI@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::I2C::writeI2C(unsigned short,class std::vector<unsigned char,class std::allocator<unsigned char> >)" (?writeI2C@I2C@firmata@@QEAAXGV?$vector@EV?$allocator@E@std@@@std@@@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: class std::vector<unsigned char,class std::allocator<unsigned char> > __cdecl firmata::I2C::readI2C(unsigned short,unsigned short)" (?readI2C@I2C@firmata@@QEAA?AV?$vector@EV?$allocator@E@std@@@std@@GG@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: class std::vector<unsigned char,class std::allocator<unsigned char> > __cdecl firmata::I2C::readI2COnce(unsigned short,unsigned short,unsigned int)" (?readI2COnce@I2C@firmata@@QEAA?AV?$vector@EV?$allocator@E@std@@@std@@GGI@Z) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::LCD::silenceLCD(void)" (?silenceLCD@LCD@firmata@@QEAAXXZ) sin resolver
+dllmain.obj : error LNK2001: símbolo externo "public: void __cdecl firmata::LCD::verboseLCD(void)" (?verboseLCD@LCD@firmata@@QEAAXXZ) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "public: __cdecl firmata::FirmSerial::FirmSerial(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (??0FirmSerial@firmata@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "public: virtual __cdecl firmata::DC::~DC(void)" (??1DC@firmata@@UEAA@XZ) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "public: __cdecl firmata::DC::DC(class firmata::FirmIO *)" (??0DC@firmata@@QEAA@PEAVFirmIO@1@@Z) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "public: virtual __cdecl firmata::LCD::~LCD(void)" (??1LCD@firmata@@UEAA@XZ) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "public: __cdecl firmata::LCD::LCD(class firmata::FirmIO *)" (??0LCD@firmata@@QEAA@PEAVFirmIO@1@@Z) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "protected: virtual bool __cdecl firmata::Base::handleString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?handleString@Base@firmata@@MEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "protected: virtual bool __cdecl firmata::Base::handleSysex(unsigned char,class std::vector<unsigned char,class std::allocator<unsigned char> >)" (?handleSysex@Base@firmata@@MEAA_NEV?$vector@EV?$allocator@E@std@@@std@@@Z) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "public: unsigned short __cdecl firmata::Base::parse(unsigned int)" (?parse@Base@firmata@@QEAAGI@Z) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "public: virtual __cdecl firmata::Base::~Base(void)" (??1Base@firmata@@UEAA@XZ) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "public: __cdecl firmata::Base::Base(class firmata::FirmIO *)" (??0Base@firmata@@QEAA@PEAVFirmIO@1@@Z) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "protected: virtual bool __cdecl firmata::I2C::handleString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?handleString@I2C@firmata@@MEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "protected: virtual bool __cdecl firmata::I2C::handleSysex(unsigned char,class std::vector<unsigned char,class std::allocator<unsigned char> >)" (?handleSysex@I2C@firmata@@MEAA_NEV?$vector@EV?$allocator@E@std@@@std@@@Z) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "public: virtual __cdecl firmata::I2C::~I2C(void)" (??1I2C@firmata@@UEAA@XZ) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "public: __cdecl firmata::I2C::I2C(class firmata::FirmIO *)" (??0I2C@firmata@@QEAA@PEAVFirmIO@1@@Z) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "protected: virtual bool __cdecl firmata::AccelStepper::handleSysex(unsigned char,class std::vector<unsigned char,class std::allocator<unsigned char> >)" (?handleSysex@AccelStepper@firmata@@MEAA_NEV?$vector@EV?$allocator@E@std@@@std@@@Z) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "public: virtual __cdecl firmata::AccelStepper::~AccelStepper(void)" (??1AccelStepper@firmata@@UEAA@XZ) sin resolver
+Interfaz.lib(arduino.obj) : error LNK2001: símbolo externo "public: __cdecl firmata::AccelStepper::AccelStepper(class firmata::FirmIO *)" (??0AccelStepper@firmata@@QEAA@PEAVFirmIO@1@@Z) sin resolver
+Interfaz.lib(interfaz.obj) : error LNK2001: símbolo externo "public: struct s_pin __cdecl firmata::Base::getPin(unsigned char)" (?getPin@Base@firmata@@QEAA?AUs_pin@@E@Z) sin resolver
+Interfaz.lib(dc.obj) : error LNK2001: símbolo externo "public: void __cdecl firmata::DC::DCsetSpeed(unsigned char,unsigned char)" (?DCsetSpeed@DC@firmata@@QEAAXEE@Z) sin resolver
+Interfaz.lib(dc.obj) : error LNK2001: símbolo externo "public: void __cdecl firmata::DC::DCsetDir(unsigned char,unsigned char)" (?DCsetDir@DC@firmata@@QEAAXEE@Z) sin resolver
+Interfaz.lib(dc.obj) : error LNK2001: símbolo externo "public: void __cdecl firmata::DC::DCinverse(unsigned char)" (?DCinverse@DC@firmata@@QEAAXE@Z) sin resolver
+Interfaz.lib(dc.obj) : error LNK2001: símbolo externo "public: void __cdecl firmata::DC::DCbrake(unsigned char)" (?DCbrake@DC@firmata@@QEAAXE@Z) sin resolver
+Interfaz.lib(dc.obj) : error LNK2001: símbolo externo "public: void __cdecl firmata::DC::DCturnOff(unsigned char)" (?DCturnOff@DC@firmata@@QEAAXE@Z) sin resolver
+Interfaz.lib(dc.obj) : error LNK2001: símbolo externo "public: void __cdecl firmata::DC::DCturnOn(unsigned char)" (?DCturnOn@DC@firmata@@QEAAXE@Z) sin resolver
+Interfaz.lib(servo.obj) : error LNK2001: símbolo externo "public: void __cdecl firmata::Base::analogWriteExtended(unsigned char,unsigned int)" (?analogWriteExtended@Base@firmata@@QEAAXEI@Z) sin resolver
+Interfaz.lib(stepper.obj) : error LNK2001: símbolo externo "public: unsigned char __cdecl firmata::AccelStepper::stepperStatus(unsigned char)" (?stepperStatus@AccelStepper@firmata@@QEAAEE@Z) sin resolver
+Interfaz.lib(stepper.obj) : error LNK2001: símbolo externo "public: void __cdecl firmata::AccelStepper::stopStepper(unsigned char)" (?stopStepper@AccelStepper@firmata@@QEAAXE@Z) sin resolver
+Interfaz.lib(stepper.obj) : error LNK2001: símbolo externo "public: void __cdecl firmata::AccelStepper::setSpeedStepper(unsigned char,double)" (?setSpeedStepper@AccelStepper@firmata@@QEAAXEN@Z) sin resolver
+Interfaz.lib(stepper.obj) : error LNK2001: símbolo externo "public: void __cdecl firmata::AccelStepper::stepStepper(unsigned char,int)" (?stepStepper@AccelStepper@firmata@@QEAAXEH@Z) sin resolver
+Interfaz.lib(stepper.obj) : error LNK2001: símbolo externo "public: void __cdecl firmata::AccelStepper::configStepper(unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char)" (?configStepper@AccelStepper@firmata@@QEAAXEEEEEEEEE@Z) sin resolver
+C:\Users\Alejandro\Documents\Interfaz2.0\Software\VisualStudio\Interfaz\x64\Release\InterfazDll.dll : fatal error LNK1120: 48 externos sin resolver
